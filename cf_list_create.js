@@ -17,7 +17,7 @@ fs.readFile('whitelist.csv', 'utf8', async (err, data) => {
     const domainValidationPattern = /^(?!-)[A-Za-z0-9-]+([\-\.]{1}[a-z0-9]+)*\.[A-Za-z]{2,6}$/;
     whitelist = data.split('\n').filter(domain => {
       // Remove entire lines starting with "127.0.0.1" or "::1", empty lines or comments
-      return domain && !domain.startsWith('#') && !domain.startsWith('//') && !domain.startsWith('\n') && !domain.startsWith('/*') && !domain.startsWith('*/') && !(domain === '\r');
+      return domain && !domain.startsWith('#') && !domain.startsWith('//') && !domain.startsWith('/*') && !domain.startsWith('*/') && !(domain === '\r');
     }).map(domain => {
       // Remove "\r", "0.0.0.0 ", "127.0.0.1 ", "::1 " and similar from domain items
       return domain
