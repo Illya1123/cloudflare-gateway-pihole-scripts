@@ -7,7 +7,7 @@ source $(dirname "$0")/lib/helpers.sh
 
 # declare an array of urls
 urls=(
-    #https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-trackres.txt
+    https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-trackres.txt
     #https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/banks.txt
     #https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt
     #https://raw.githubusercontent.com/TogoFire-Home/AD-Settings/main/Filters/whitelist.txt
@@ -22,13 +22,13 @@ urls=(
     #https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/mac.txt
     #https://raw.githubusercontent.com/boutetnico/url-shorteners/master/list.txt
     #https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/windows.txt
-    #https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/official-domains.txt
+    https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/official-domains.txt
     #https://raw.githubusercontent.com/ookangzheng/blahdns/master/hosts/whitelist.txt
-    #https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/android.txt
+    https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/android.txt
     #https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/sensitive.txt
-    #https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
+    https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
     #https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/firefox.txt
-    #https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains
+    https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains
     # Commented out because it whitelists sites including doubleclick.net and ad.atdmt.com
     # https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/referral-sites.txt
     # Uncomment the line below to use OISD's most commmonly whitelisted list
